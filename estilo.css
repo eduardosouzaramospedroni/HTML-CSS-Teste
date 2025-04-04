@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+img{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: white;
+}
+
+footer .line-footer1{
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+
+}
+
+footer .line-footer2{
+    padding: 40px 0;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.line-footer1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+    color: black;
+}
+
+.line-footer1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+    color: black;
+}
+
+footer .box-line-footer img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .box-line-footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+    color: black;
+}
+
+footer .line-footer2 .box-line-footer{
+    width: calc(100% / 3);
+}
+
+.line-footer2 .box-line-footer h3{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+.line-footer2 .box-line-footer a{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.box-line-footer .btn-redes a{
+    display: inline;
+}
+
+.box-line-footer .btn-redes button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .2s;
+}
+
+.box-line-footer .btn-redes button:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+footer .line-footer3{
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer .line-footer3 p{
+    color: black;
+}
+
+.container{
+    margin: 0 auto;
+    color: black;
+    width: 100%px ;
+    height: 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+}
+
+.container .logo, .menu{
+    padding-top: 10px;
+    width: 25%;
+}
+
+.container a{
+    color: black;
+}
+
+.menu nav a{
+    padding-right: 30px;
+}
